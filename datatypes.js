@@ -33,6 +33,7 @@ console.log(x);
 console.log(typeof x);//number
 console.log(typeof (x));//number
 
+
 let y = 12.33;
 console.log(y);
 console.log(typeof y);//number
@@ -103,9 +104,9 @@ console.log(typeof null);//object -- old legacy bug in JS
 //var -- keyword/identifier to declare a variable in JS:
 
 //redeclaration: allowed
-var i = 10;
-var i = 20;
-console.log(i);//20
+var z = 10;
+var z = 20;
+console.log(z);//20
 
 var loginButton = 'login';
 var loginButton = 'Cotinue';
@@ -125,7 +126,7 @@ var loginButton = 'Cotinue';
 // Trainer_Name = 'Ravi';
 // console.log(Trainer_Name);
 const PI = 3.14;
-const PI = 3.14;
+//const PI = 3.14;
 console.log(PI);
 
 //Reassignment:
@@ -150,8 +151,8 @@ console.log(firstName);//undefined
 var firstName = 'Naveen';
 
 //let: hosting is not allowed -- ReferenceError: Cannot access 'b' before initialization
-console.log(b);//error
-let b = 90;
+console.log(b1);//error
+let b1 = 90;
 
 //const: hosting is not allowed -- ReferenceError: Cannot access 'b' before initialization
 console.log(trainerName);
@@ -172,3 +173,12 @@ let b = 100;
 let c = 100;
 
 //TS (programmer) ----> JS ----> browser runtime (JS)
+
+console.log(y1);
+let y1;
+
+console.log(x1);
+var x1;
+
+//console.log(k);
+//const k;   //SyntaxError: Missing initializer in const declaration
